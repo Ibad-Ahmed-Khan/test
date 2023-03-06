@@ -35,7 +35,7 @@ html {
     letter-spacing: 2px;
     color: var(--white--color);
     text-decoration: none;
-    text-align: center;
+    margin-left: 1rem;
 }
 
 .title {
@@ -81,6 +81,27 @@ h2 {
     background: var(--crimson--color);
     transition: all .4s ease-in-out;
 }
+
+.services
+ {
+    height: 180vh;
+}
+
+.project
+ {
+    height: 370vh;
+}
+
+.about
+ {
+    height: 140vh;
+}
+
+.contact
+ {
+    height: 120vh;
+}
+
 
 /* end__again__and__again */
 
@@ -711,6 +732,21 @@ nav a:hover {
 
 .nav__list a:hover::after {
     transform: scale(1,1);
+}
+
+.home,
+.services,
+.about,
+.contact {
+    height: 100vh;
+}
+
+.project {
+    height: 225vh;
+}
+
+.logo {
+    margin-left: 3rem;
 }
 
 }
